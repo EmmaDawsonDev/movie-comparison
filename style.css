@@ -2,17 +2,21 @@
   width: 600px;
   text-align: center;
   margin: auto;
-  background: #383838;
+  margin-top: 100px;
+  background: #23D160;
+  border-radius: 10px;
+
 
 }
 
 .tutorial .title {
   font-size: 1.8rem;
-  color: white;
+  color: black;
 }
 
 p {
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 figure.image {
@@ -27,6 +31,7 @@ figure .image img {
 
 .notification {
   margin-top: 20px !important;
+  
 }
 
 .results {
@@ -39,7 +44,7 @@ figure .image img {
   margin-right: 15px;
 }
 
-.title {
+.main-title {
   text-align: center;
   font-size: 3rem;
   color: black;
@@ -47,8 +52,8 @@ figure .image img {
 
 .hero {
   margin-bottom: 20px;
-  background: rgb(0,0,0);
-background: linear-gradient(216deg, rgba(0,0,0,1) 25%, rgba(240,240,240,1) 51%, rgba(0,0,0,1) 75%);
+  background: #23D160;
+
 }
 
 .forms {
@@ -65,4 +70,13 @@ background: linear-gradient(216deg, rgba(0,0,0,1) 25%, rgba(240,240,240,1) 51%, 
 .dropdown-item img {
   height: 50px;
   margin-right: 10px;
+}
+
+.column {
+  margin-top: 30px;
+}
+
+.input {
+  border-color: #23D160;
+  background-color: #e6ffee;
 }
