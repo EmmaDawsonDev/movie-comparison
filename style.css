@@ -2,6 +2,17 @@
   width: 600px;
   text-align: center;
   margin: auto;
+  background: #383838;
+
+}
+
+.tutorial .title {
+  font-size: 1.8rem;
+  color: white;
+}
+
+p {
+  color: white;
 }
 
 figure.image {
@@ -25,10 +36,19 @@ figure .image img {
 
 .title .icon {
   margin-left: 15px;
+  margin-right: 15px;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
 }
 
 .hero {
   margin-bottom: 20px;
+  background: rgb(0,0,0);
+background: linear-gradient(216deg, rgba(0,0,0,1) 25%, rgba(240,240,240,1) 51%, rgba(0,0,0,1) 75%);
 }
 
 .forms {
